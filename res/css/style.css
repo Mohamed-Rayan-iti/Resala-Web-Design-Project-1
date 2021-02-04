@@ -1,0 +1,74 @@
+/* Main jumbotron */
+.jumbotron {
+  background-image: url("../img/bg-masthead.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #898888;
+  height: 100vh;
+  color: white;
+}
+
+/* Icons features */
+.features {
+  padding: 7vw 0rem;
+}
+.features .fas,
+.features .far {
+  font-size: 4rem;
+  display: block;
+  color: #0d6efd;
+}
+.features .fas,
+.features .far,
+.features p,
+.features h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Image features-details */
+.features-details .features-image {
+  padding: 0px;
+  height: 50vh;
+}
+.features-details .features-Paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7vw;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 7vw 0rem;
+}
+.testimonials img {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 140px;
+  min-height: 140px;
+  width: 18vw;
+  height: 18vw;
+}
+.testimonials img,
+.testimonials p,
+.testimonials h4 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Call to Action */
+.call-to-action {
+  height: 50vh;
+  color: white;
+}
+.call-to-action img {
+  width: 100%;
+  height: 50vh;
+}
+
+/* footer */
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
